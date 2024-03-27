@@ -1,0 +1,12 @@
+crewai=="0.10.0"
+streamlit
+streamlit_option_menu
+unstructured
+langchain
+Jinja2
+click
+duckduckgo-search
+langchain_google_genai 
+langchain
+langchain_community
+langchain_experimental
