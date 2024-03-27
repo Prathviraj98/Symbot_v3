@@ -1,8 +1,3 @@
-# mistral_api_key="joyfDcpUIAcWKWPt7MLPrzQNHiTOXTy0"
-# #google_api_key="AIzaSyDtNBdC7RVR3YkOPflbPHG6Ph5W3c92eFA"
-# #google_api_key="AIzaSyC4Q8X1L7C-ffj68N_po1AmAOYmFWFxn8o"
-# #openai_api_key="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"
-# #serpapi="5984cbb6e669d43ba782173818b6e99a753d0ca9ba0a4afd86768925575abd7c"
 import streamlit as st
 import random
 import time
@@ -12,7 +7,7 @@ import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 api_gemini = os.environ.get("GEMINI-API-KEY")
 llm = ChatGoogleGenerativeAI(
-    model="gemini-pro", verbose=True, temperature=0.1, google_api_key="AIzaSyC4Q8X1L7C-ffj68N_po1AmAOYmFWFxn8o"
+    model="gemini-pro", verbose=True, temperature=0.1, google_api_key=""
 )
 
 
