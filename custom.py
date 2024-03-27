@@ -7,7 +7,7 @@ import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 api_gemini = os.environ.get("GEMINI-API-KEY")
 llm = ChatGoogleGenerativeAI(
-    model="gemini-pro", verbose=True, temperature=0.1, google_api_key="AIzaSyC4Q8X1L7C-ffj68N_po1AmAOYmFWFxn8o"
+    model="gemini-pro", verbose=True, temperature=0.1, google_api_key=""
 )
 
 
